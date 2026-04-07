@@ -1,0 +1,43 @@
+ .box{ height:400px;
+            width:400px;
+            background-color: beige;
+            border: solid black 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+         margin: auto;
+         transition: all 2s  ease-in 1s;
+    }
+    .box:hover{
+        /* transform: rotate(360deg); */
+        /* transform: scale(2); */
+        /* box ke hover krne se double size ka ho ajyenga */
+        /* transform:scale(0.5) ;
+        ye decrease size */
+
+        /* transform: rotate(-45deg); ab anticlockwise */
+        /* transform: skew(45deg); ab tilted */
+
+        /* transform: translate(500px);ab 500px move x  */
+         /* transform: translate(0px,500px);ab 500px move y niche */
+         /* transform: translate(500px,500px); */
+         /* diagonally move */
+
+    }
+
+    
+
+
+
+    p{
+        font-size: 40px;
+    }
+
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+         display: flex;
+        justify-content: center;
+        align-items: center; 
+    }

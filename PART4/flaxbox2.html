@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document8</title>
+    <style>
+        .container{
+            background-color: bisque;
+            border: 5px solid black;
+            margin: 2px;height: 800px;
+             padding: 2px;
+            display: flex;
+
+            /* flex-wrap: wrap;   */
+            justify-content: start; 
+             /* align-items: center; */
+             /* align-content: center; */
+            
+
+             /* align-content: end; */
+             /* isase wrap krna pr bich ke gap hat jayenge allign content ismen start end sab property used karke dekh lo */ 
+            
+           
+           
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border:solid brown;
+             margin: 2px;
+            padding: 2px;
+            /* flex-grow: 1; */
+        }
+        #box1{
+            background-color: blue;
+           
+/* align-self: center; */
+        }
+          #box3{background-color: blueviolet;
+            /* order: -1; */
+            /* order se sequence change kr sakte hain */
+            
+        }
+          #box2{background-color: aqua;
+            /* order: -1; */
+            /* flex-shrink: 4; */
+            /* flex-grow: 4; */
+            /* ek hota hai shrink isi tarah ek grow hota ahi */
+            /* flex-grow: 4; */
+            /* flex-basis: 400px; */
+            /* ye dimesnion width set karne hota hai */
+           
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="box" id="box1">box1
+        
+    </div>
+     <div class="box" id="box3">box2
+        
+    </div>
+     <div class="box" id="box1">box3
+        
+    </div>
+    <div class="box" id="box2">box4
+        
+    </div>
+    </div>
+    
+</body>
+</html>
