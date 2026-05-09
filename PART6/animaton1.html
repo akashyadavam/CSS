@@ -48,20 +48,21 @@
             padding: 3px;
             position: relative;
            
-            animation-name: akk;
-            animation-duration: 4s;
-            animation-iteration-count: 1;
-            animation-delay: 2s;
-            animation-timing-function: linear;
+            /* animation-name: akk; */
+            /* animation-duration: 4s; */
+            /* animation-iteration-count: 1; */
+            /* animation-delay: 2s; */
+            /* animation-timing-function: linear; */
             /* animation-timing-function: cubic-bezier(0, 2.16, 0.72, -0.23); */
-            animation-direction: alternate;
+            /* animation-direction: alternate; */
             /* animation-fill-mode: forwards; */
+          animation: akk 4s linear 1s infinite alternate ;
 
         }
         @keyframes akk{
             from{
-                top:700px;
-                left: 1300px;
+                top:0px;
+                left: 0px;
             }
             to{
                 top:700px;
@@ -70,7 +71,7 @@
                 /* left:100vw; */
             }
         }
-          @keyframes akki{
+           @keyframes akki{
             from{
                 top:0px;
                 left: 0px;
@@ -80,8 +81,8 @@
                 left:1300px;
                 /* animation ke duran jab end hone wala hota hai to slow ho jata hai; */
                 /* left:100vw; */
-            }
-        }
+            } 
+        } 
          #box2{
             
             width: 100px;
@@ -103,8 +104,9 @@
            
         }
         @keyframes ak  {
-            0%{top:1% ;
-                left: 5%;
+             0%{
+                top:1% ;
+                left: 5%; 
 /* ye percent mtlab 30 percent animation jab ho jaye to aese position mein a jaana    */
             }
             30%{top: 5%;
@@ -116,12 +118,12 @@
 
             }
            100% {
-top: 70%;
+top: 70%; 
        left:90% ;     }
 
 
             
-        }
+         } 
     </style>
 </head>
 <body>

@@ -12,15 +12,17 @@
         /* transform: rotate(360deg); */
         /* transform: scale(2); */
         /* box ke hover krne se double size ka ho ajyenga */
-        /* transform:scale(0.5) ;
-        ye decrease size */
+         /* transform:scale(0.5) ; */
+       /* ye decrease size */
 
         /* transform: rotate(-45deg); ab anticlockwise */
-        /* transform: skew(45deg); ab tilted */
+         /* transform: skew(45deg); */
+         /*  ab tilted */
 
-        /* transform: translate(500px);ab 500px move x  */
-         /* transform: translate(0px,500px);ab 500px move y niche */
-         /* transform: translate(500px,500px); */
+        transform: translate(500px);/*ab  500px move x  */
+          /* transform: translate(0px,500px); */
+         /*ab 500px move y niche */
+         transform: translate(500px,500px);
          /* diagonally move */
 
     }
